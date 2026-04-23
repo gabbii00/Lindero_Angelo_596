@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:modelhandling/screens/chat_screen.dart';
 import 'package:modelhandling/screens/homepage.dart';
 import 'package:modelhandling/screens/login_screen.dart';
 import 'package:modelhandling/screens/product_screen.dart';
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const LoginPage(),
+      home: const ChatPage(username: "gabbi"),
       debugShowCheckedModeBanner: false,
     );
   }

@@ -3,7 +3,6 @@ import 'package:supabase_flutter/supabase_flutter.dart' hide User;
 
 
 //wow
-
 class ProductController {
   final supabase = Supabase.instance.client;
   // Get all product
